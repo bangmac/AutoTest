@@ -12,7 +12,7 @@ repositories {
     mavenCentral()
 }
 
-test {
+test { // tích hợp Junit vào
     useJUnitPlatform()
 
     testLogging {
